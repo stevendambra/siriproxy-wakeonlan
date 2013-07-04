@@ -41,7 +41,7 @@ class SiriProxy::Plugin::WakeOnLAN < SiriProxy::Plugin
         #if you have custom configuration options, process them here!
     end
     
-listen_for /wake up my (.*)/i do |userAction|
+listen_for /turn on my (.*)/i do |userAction|
 	userAction.strip!
 	userAction.capitalize!
 	if userAction == "computer" then
