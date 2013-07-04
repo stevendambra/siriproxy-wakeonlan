@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version     = "0.0.1" 
   s.authors     = ["Ian McDowell"]
   s.email       = ["mcdow.ian@gmail.com"]
-  s.homepage    = "www.ianmcdowell.net/SiriProxy/"
+  s.homepage    = "http://www.ianmcdowell.net/SiriProxy/"
   s.summary     = %q{SiriProxy Wake On LAN Plugin}
   s.description = %q{Wake up other computers using this plugin and SiriProxy.}
 
