@@ -9,7 +9,7 @@ module MyConfig
     @host_hash = {}
     @local_hash = {}
     @port_hash = {}
-    CSV.foreach("config.csv") do |row|
+    CSV.foreach("./plugins/config.csv") do |row|
     name, mac_address, host, local, port = row
     next if name == "Name"
     @mac_address_hash[name] = mac_address
