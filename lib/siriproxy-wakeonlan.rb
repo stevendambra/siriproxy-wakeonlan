@@ -16,7 +16,6 @@ module MyConfig
     @host_hash[name] = host
     @local_hash[name] = local
     @port_hash[name] = port
-    end
 end
 
 def self.mac_address(computer_name)
